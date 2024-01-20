@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { View, FlatList, Image } from 'react-native';
 import styles from './styles';
 
-export function Carrossel({ data }){
+export function Carrossel({ data, tempoIntervalo = 1000 }){
   const carrosselRef = useRef();
   const [indice, setIndice] = useState(0);
 
@@ -16,10 +16,9 @@ export function Carrossel({ data }){
   }
   useEffect(() => {
     carrosselRef.current.scrollToIndex({ index: indice });
-    console.log(indice);
     const intervalo = setInterval(() => {
       alterPosicaoObjeto();
-    }, 2000)
+    }, tempoIntervalo)
 
     return () => clearInterval(intervalo);
 
