@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { View, FlatList, Image } from 'react-native';
 import styles from './styles';
 
-export function Carrossel({ data, tempoIntervalo = 1000 }){
+export function Carrossel({ data, tempoIntervalo = 2000 }){
   const carrosselRef = useRef();
   const [indice, setIndice] = useState(0);
 
