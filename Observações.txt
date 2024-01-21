@@ -5,3 +5,10 @@
 > plugins: [
       'react-native-reanimated/plugin',
   ],
+
+- Lottie - site de animações, muitas são gratuitas.
+> lottiefiles.com
+> 'npm install lottie-react-native@5'
+> Para iOS precisa instalar também o abaixo:
+> 'npm install lottie-ios@3'
+
