@@ -1,0 +1,7 @@
+- React Native Reanimated
+> Precisa instalar a biblioteca pelo terminal, comando:
+> 'npm install react-native-reanimated@2.8.0'
+> No arquivo 'babel.config.js', incluir a linha abaixo:
+> plugins: [
+      'react-native-reanimated/plugin',
+  ],
