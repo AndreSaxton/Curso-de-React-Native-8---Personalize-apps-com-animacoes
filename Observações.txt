@@ -11,4 +11,5 @@
 > 'npm install lottie-react-native@5'
 > Para iOS precisa instalar também o abaixo:
 > 'npm install lottie-ios@3'
-
+> Para web instalar também:
+> 'npm install react-native-web-lottie --save'
